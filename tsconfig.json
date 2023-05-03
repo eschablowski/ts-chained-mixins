@@ -1,16 +1,12 @@
 {
-    "include": [
-        "src/**/*.ts"
-    ],
-    // "exclude": [
-    //     "**/__tests__/**"
-    // ],
     "compilerOptions": {
         "inlineSourceMap": true,
-        "target": "ES2016",
+        "target": "ESNext",
         "outDir": "./dist",
         "esModuleInterop": true,
         "strictNullChecks": true,
-        "moduleResolution": "nodenext"
+        "moduleResolution": "nodenext",
+        "declaration": true,
+        "declarationMap": true
     }
 }
