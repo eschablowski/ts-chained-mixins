@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.ts must match from previous api 1`] = `
+{
+  "NotMixableError": [Function],
+  "chainableMixinsMixin": [Function],
+  "default": [Function],
+}
+`;

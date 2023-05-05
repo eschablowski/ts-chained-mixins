@@ -1,14 +1,9 @@
 {
   "name": "ts-chained-mixins",
   "packageManager": "yarn@3.5.1",
-  "files": [
-    "build/**/*",
-    "README.md",
-    "package.json"
-  ],
   "scripts": {
     "test": "jest",
-    "build": "webpack",
+    "build": "tsc && cp package.json dist",
     "lint": "eslint ."
   },
   "devDependencies": {
@@ -16,14 +11,11 @@
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "@typescript-eslint/parser": "^5.59.2",
     "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "jest": "^29.5.0",
     "prettier": "^2.8.8",
     "ts-jest": "^29.1.0",
-    "ts-loader": "^9.4.2",
-    "typescript": "^5.0.4",
-    "webpack": "^5.81.0",
-    "webpack-cli": "^5.0.2",
-    "webpack-node-externals": "^3.0.0"
+    "typescript": "^5.0.4"
   }
 }
